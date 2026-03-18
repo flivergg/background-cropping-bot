@@ -48,12 +48,16 @@ Windows:
 
 bash
 python -m venv venv
+
 venv\Scripts\activate
+
 Linux/macOS:
 
 bash
 python3 -m venv venv
+
 source venv/bin/activate
+
 Установите зависимости
 
 bash
@@ -65,13 +69,18 @@ pip install -r requirements.txt
 
 env
 BOT_TOKEN=ВАШ_ТОКЕН_БОТА_ОТ_BOTFATHER
+
 ADMIN_ID=ВАШ_TELEGRAM_ID
+
 BOT_TOKEN: токен, который вы получили от BotFather.
+
 ADMIN_ID: ваш числовой ID в Telegram (узнать можно у бота @userinfobot). Нужен для доступа к админ-командам.
+
 Запустите бота
 
 bash
 python bot.py
+
 Если вы видите в консоли Запускаем бота... — всё работает! 🎉
 🎮 Как пользоваться
 
